@@ -1,7 +1,7 @@
 {
   "name": "food4thought",
   "version": "0.0.1",
-  "description": "",
+  "description": "Food4Thought",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -35,5 +35,9 @@
   "engines": {
     "node": "10.15.0",
     "npm": "6.4.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
