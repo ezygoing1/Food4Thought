@@ -14,11 +14,11 @@ const foodTruckSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  user: {
+  owner: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'User'
+    ref: 'FoodTruck'
   }
 
 })
 
-module.exports = mongoose.model('User', foodTruckSchema)
+module.exports = mongoose.model('FoodTruck', foodTruckSchema)
