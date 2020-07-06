@@ -9,7 +9,7 @@ curl "${API}${URL_PATH}/" \
   --header "Authorization: Bearer ${TOKEN}" \
   --header "Content-Type: application/json" \
   --data '{
-    "passwords": {
+    "password": {
       "old": "'"${OLDPW}"'",
       "new": "'"${NEWPW}"'"
     }
